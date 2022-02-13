@@ -1,0 +1,14 @@
+{
+  "name": "miniprogram-1",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mei-Yi-Tian Team",
+  "license": "Proprietary",
+  "dependencies": {
+    "@vant/weapp": "^1.10.2"
+  }
+}

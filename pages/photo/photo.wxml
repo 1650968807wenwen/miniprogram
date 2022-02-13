@@ -1,0 +1,4 @@
+<!--pages/photo/photo.wxml-->
+<van-tabs active="{{ active }}">
+  <van-tab wx:for="{{ list }}" wx:key="{{ index }}" title="{{ item.tag }}">{{ item.context }}</van-tab>
+</van-tabs>
