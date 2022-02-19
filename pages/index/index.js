@@ -2,12 +2,24 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {},
+  data: {
+    background: ["demo-text-1", "demo-text-2", "demo-text-3"],
+    height: 100,
+  },
+
+  initHeight() {
+    let width = wx.getSystemInfoSync().windowWidth;
+    this.setData({
+      height: (9 / 16) * width,
+    });
+  },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {},
+  onLoad: function (options) {
+    this.initHeight()
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

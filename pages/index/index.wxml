@@ -1,2 +1,8 @@
-<!--index.wxml-->
 <van-search value="{{ value }}" placeholder="请输入搜索关键词" bind:search="onSearch" />
+<swiper indicator-dots autoplay circular interval="4000" duration="1500" style="height: {{ height }}px;">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <view class="swiper-item {{item}}" style="height: {{ height }}px;"></view>
+    </swiper-item>
+  </block>
+</swiper>
