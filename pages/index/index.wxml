@@ -6,3 +6,7 @@
     </swiper-item>
   </block>
 </swiper>
+<van-divider />
+<van-grid gutter="10" column-num="2">
+  <van-grid-item icon="photo-o" text="按钮{{ item + 1 }}" wx:for="{{ 4 }}"/>
+</van-grid>
