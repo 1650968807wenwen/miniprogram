@@ -3,25 +3,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    activeKey: 0,
-    list: [
-      {
-        tag: "标签1",
-        context: "内容1",
-      },
-      {
-        tag: "标签2",
-        context: "内容2",
-      },
-      {
-        tag: "标签3",
-        context: "内容3",
-      },
-      {
-        tag: "标签4",
-        context: "内容4",
-      },
-    ],
   },
 
   /**

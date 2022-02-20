@@ -1,4 +1,5 @@
-<!--pages/photo/photo.wxml-->
-<van-tabs active="{{ active }}">
-  <van-tab wx:for="{{ list }}" wx:key="{{ index }}" title="{{ item.tag }}">{{ item.context }}</van-tab>
-</van-tabs>
+<view class="page">
+  <van-cell-group inset wx:for="{{ 5 }}">
+    <van-card price="价格{{ item + 1 }}" desc="描述信息{{ item + 1 }}" title="摄影师{{item + 1}}" thumb="https://cdn-icons-png.flaticon.com/512/149/149071.png" />
+  </van-cell-group>
+</view>
